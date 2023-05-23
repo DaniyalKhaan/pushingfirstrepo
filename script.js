@@ -14,14 +14,14 @@ let scores, currentScore, activePlayer, playing;
 
 //Starting conditions
 const init = function () {
-  scores = [0, 0];
-  currentScore = 0;
-  activePlayer = 0;
-  playing = true;
-  score0.textContent = 0;
-  score1.textContent = 0;
-  current0.textContent = 0;
-  current1.textContent = 0;
+  // scores = [0, 0];
+  // currentScore = 0;
+  // activePlayer = 0;
+  // playing = true;
+  // score0.textContent = 0;
+  // score1.textContent = 0;
+  // current0.textContent = 0;
+  // current1.textContent = 0;
   diceEl.classList.add("hidden");
   player0El.classList.remove("player--winner");
   player1El.classList.remove("player--winner");
